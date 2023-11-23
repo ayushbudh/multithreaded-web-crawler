@@ -1,0 +1,4 @@
+Average time taken for both seqyential and multithreaded web crawlers from multiple runs:
+
+Sequential: (7079 ms + 6609 ms + 6339 ms + 7014 ms) / 4 = 6760.25 ms
+Multithreaded (2 threads): (6552 ms + 6702 ms + 6407 ms + 6540 ms ) / 4 = 6550.25 ms
