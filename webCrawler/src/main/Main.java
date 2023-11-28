@@ -1,17 +1,14 @@
 package main;
 
-// Main class is designed to test the webcrawler
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String args[]) {
+		String URLS[] = { "http://books.toscrape.com", "https://dictionary.com" };
+		int noOfThreads = 3;
 		int maxDepth = 2;
-		int numThreads = 2;
-		String URLS[] = { "https://dictionary.com" };
 
-		SequentialWebCrawler sequentialWebCrawler = new SequentialWebCrawler(URLS, maxDepth);
-		sequentialWebCrawler.startCrawler();
+		WebCrawler webCrawler = new WebCrawler(URLS, noOfThreads, maxDepth);
 
-		MultithreadedWebCrawler multithreadedWebCrawler = new MultithreadedWebCrawler(URLS, maxDepth, numThreads);
-		multithreadedWebCrawler.startCrawler();
-
+		webCrawler.startMultithreadedWebCrawler();
+		webCrawler.startSinglethreadedWebCrawler();
 	}
 }
