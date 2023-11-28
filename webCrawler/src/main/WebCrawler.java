@@ -3,7 +3,6 @@ package main;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.ArrayList;
 import java.util.HashMap;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
@@ -11,6 +10,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import java.io.IOException;
 import java.io.FileWriter;
+import java.io.FileReader;
+import java.io.BufferedReader;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -23,11 +24,10 @@ class WebCrawler {
     private Queue<String> urlsDocProcessingQueue;
     private HashMap<String, Document> urlDocMap;
     private int maxDepth;
-    private FileWriter multithreadedCrawlerStateFileWriter;
-    private FileWriter singlethreadedCrawlerStateFileWriter;
-    private static final Path currentPath = Paths.get("");
-    private static final Path pathToDataDir = Paths.get(currentPath.toAbsolutePath().toString(),
-            "multithreaded-web-crawler", "webCrawler", "data");
+    private FileWriter multithreadedCrawlerStateFileWriters[];
+    private FileWriter singlethreadedCrawlerStateFileWriters[];
+    private static final Path currentPath = Paths.get(System.getProperty("user.dir"));
+    private static final Path pathToDataDir = Paths.get(currentPath.toAbsolutePath().getParent().toString());
 
     class DocumentDownloadThread extends Thread {
         private Queue<String> urlsDocProcessingQueue;
@@ -58,19 +58,31 @@ class WebCrawler {
         this.urlDocMap = new HashMap<>();
         this.urlsDocProcessingQueue = new LinkedList<>();
         this.maxDepth = maxDepth;
-        try {
-            this.multithreadedCrawlerStateFileWriter = new FileWriter(
-                    pathToDataDir + "/multithreadedWebCrawlerState.txt");
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-            System.exit(-1);
-        }
-        try {
-            this.singlethreadedCrawlerStateFileWriter = new FileWriter(
-                    pathToDataDir + "/singlethreadedCrawlerState.txt");
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-            System.exit(-1);
+        this.multithreadedCrawlerStateFileWriters = new FileWriter[this.URLs.length];
+        this.singlethreadedCrawlerStateFileWriters = new FileWriter[this.URLs.length];
+        setupFileOperators();
+    }
+
+    public void releaseResources() {
+        // release resources
+    }
+
+    private void setupFileOperators() {
+        for (int i = 0; i < this.URLs.length; i++) {
+            try {
+                this.multithreadedCrawlerStateFileWriters[i] = new FileWriter(
+                        pathToDataDir + "/data/multithreadedCrawler/root_url_" + (i + 1) + ".txt");
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+                System.exit(-1);
+            }
+            try {
+                this.singlethreadedCrawlerStateFileWriters[i] = new FileWriter(
+                        pathToDataDir + "/data/singlethreadedCrawler/root_url_" + (i + 1) + ".txt");
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+                System.exit(-1);
+            }
         }
     }
 
@@ -105,36 +117,74 @@ class WebCrawler {
         this.urlDocMap.clear();
     }
 
-    private void writeMultithreadedWebCrawlerState(ArrayList<String> logs) {
-        System.out.println(
-                "\n>> Multithreaded crawler state writing started for the file: multithreadedWebCrawlerState.txt");
-        System.out.println("Writing ");
-        for (String line : logs) {
-            try {
-                this.multithreadedCrawlerStateFileWriter.write(line);
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-                System.exit(-1);
-            }
+    private void writeMultithreadedWebCrawlerState(String line, int idx) {
+        try {
+            this.multithreadedCrawlerStateFileWriters[idx].write(line);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.exit(-1);
         }
-        System.out.println(
-                ">> Multithreaded crawler state writing ended for the file:  multithreadedWebCrawlerState.txt");
     }
 
-    private void writeSinglethreadedCrawlerState(ArrayList<String> logs) {
-        System.out.println(
-                "\n>> Singlethreaded crawler state writing started for the file: singlethreadedCrawlerState.txt");
-        System.out.println("Writing ");
-        for (String line : logs) {
+    private void closeMultithreadedWebCrawlerStateWriter(int idx) {
+        try {
+            this.multithreadedCrawlerStateFileWriters[idx].close();
+        } catch (IOException e) {
+        }
+    }
+
+    private void closeSinglethreadedWebCrawlerStateWriter(int idx) {
+        try {
+            this.singlethreadedCrawlerStateFileWriters[idx].close();
+        } catch (IOException e) {
+        }
+    }
+
+    private void writeSinglethreadedCrawlerState(String line, int idx) {
+        try {
+            this.singlethreadedCrawlerStateFileWriters[idx].write(line);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+            System.exit(-1);
+        }
+    }
+
+    private CrawlerStateData loadMultithreadedWebCrawlerState() {
+        BufferedReader reader;
+        CrawlerStateData crawlerStateData = new CrawlerStateData();
+        for (int i = 0; i < this.URLs.length; i++) {
             try {
-                this.singlethreadedCrawlerStateFileWriter.write(line);
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-                System.exit(-1);
+                reader = new BufferedReader(
+                        new FileReader(pathToDataDir + "/data/multithreadedCrawler/root_url_" + (i + 1) + ".txt"));
+                String line = reader.readLine();
+                while (line != null) {
+                    line = line.trim();
+                    if (line.startsWith("level:")) {
+                        String lineSplit[] = line.split(": ");
+                        int depth = Integer.parseInt(lineSplit[1]);
+                        crawlerStateData.setDepth(depth);
+                    } else {
+                        if (!line.isEmpty() && line.startsWith("http")) {
+                            crawlerStateData.setRootURL(line);
+                            crawlerStateData.setIdx(i);
+                        }
+                    }
+                    line = reader.readLine();
+                }
+                reader.close();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
-        System.out.println(
-                ">> Singlethreaded crawler state writing ended for the file:  singlethreadedCrawlerState.txt");
+        if (crawlerStateData.getRootURL().isEmpty()) {
+            crawlerStateData.setRootURL(this.URLs[0]);
+            crawlerStateData.setIdx(0);
+        }
+        return crawlerStateData;
+    }
+
+    private void loadSinglethreadedWebCrawlerState() {
+
     }
 
     public void startMultithreadedWebCrawler() {
@@ -142,8 +192,7 @@ class WebCrawler {
                 "\n:::::::::::::::::::::::::::::::::: Multithreaded Web Crawler ::::::::::::::::::::::::::::::::::");
         for (int i = 0; i < this.URLs.length; i++) {
             createThreads();
-            ArrayList<String> logs = multiThreadedCrawl(URLs[i]);
-            writeMultithreadedWebCrawlerState(logs);
+            multiThreadedCrawl(URLs[i], i);
             clearState();
             stopThreads();
         }
@@ -156,8 +205,7 @@ class WebCrawler {
         System.out.println(
                 "\n:::::::::::::::::::::::::::::::::: Singlethreaded Web Crawler ::::::::::::::::::::::::::::::::::");
         for (int i = 0; i < this.URLs.length; i++) {
-            ArrayList<String> logs = singleThreadedCrawl(URLs[i]);
-            writeSinglethreadedCrawlerState(logs);
+            singleThreadedCrawl(URLs[i], i);
             clearState();
         }
         System.out.println(
@@ -177,8 +225,7 @@ class WebCrawler {
         }
     }
 
-    private ArrayList<String> singleThreadedCrawl(String rootURL) {
-        ArrayList<String> logs = new ArrayList<>();
+    private void singleThreadedCrawl(String rootURL, int idx) {
         int depth = 0;
         this.urlsQueue.add(rootURL);
         this.visitedURLs.add(rootURL);
@@ -186,18 +233,22 @@ class WebCrawler {
         System.out.println("\n>> Web crawling starting at rootURL: " + rootURL);
         System.out.println("Crawling...");
 
-        logs.add(
-                "\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n");
-        logs.add("\nrootURL: " + rootURL + "\n");
+        writeSinglethreadedCrawlerState(
+                "\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n",
+                idx);
+        writeSinglethreadedCrawlerState("\nrootURL: " + rootURL + "\n", idx);
+
+        long startTime = System.currentTimeMillis();
 
         while (!this.urlsQueue.isEmpty() && depth < this.maxDepth) {
-            logs.add("\nlevel: " + depth + "\n");
+            writeSinglethreadedCrawlerState("\nlevel: " + depth + "\n", idx);
             int currentLevelSize = this.urlsQueue.size();
             for (int i = 0; i < currentLevelSize; i++) {
                 String currentURL = this.urlsQueue.poll();
-                logs.add("\t" + currentURL + "\n");
+                writeSinglethreadedCrawlerState("\t" + currentURL + "\n", idx);
                 Document doc = request(currentURL);
                 if (doc != null) {
+                    writeSinglethreadedCrawlerState("\tTitle: " + doc.title() + "\n", idx);
                     for (Element link : doc.select("a[href]")) {
                         String nextURL = link.absUrl("href");
                         if (!this.visitedURLs.contains(nextURL)) {
@@ -209,36 +260,41 @@ class WebCrawler {
             }
             depth++;
         }
+        long stopTime = System.currentTimeMillis();
+        long elapsedTime = stopTime - startTime;
         System.out.println(">> Web crawling ended for rootURL: " + rootURL);
         System.out.println("\n>> Analytics <<\n");
-        logs.add(
-                "\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
-        return logs;
+        System.out.println("Total time: " + elapsedTime + " ms");
+        writeSinglethreadedCrawlerState(
+                "\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::",
+                idx);
+        closeSinglethreadedWebCrawlerStateWriter(idx);
     }
 
-    private ArrayList<String> multiThreadedCrawl(String rootURL) {
-        ArrayList<String> logs = new ArrayList<>();
+    private void multiThreadedCrawl(String rootURL, int idx) {
         int depth = 0;
         int childThreadDocProcessedCount = 0;
         int mainThreadDocProcessedCount = 0;
-        int threadsRunBreakpoint = 0;
+        int threadsRunBreakpoint = 1;
+
+        System.out.println("\n>> Web crawling starting at rootURL: " + rootURL);
+        System.out.println("Crawling...");
+        writeMultithreadedWebCrawlerState(
+                "\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n",
+                idx);
+        writeMultithreadedWebCrawlerState("\nrootURL: " + rootURL + "\n", idx);
 
         this.urlsQueue.add(rootURL);
         this.visitedURLs.add(rootURL);
 
-        System.out.println("\n>> Web crawling starting at rootURL: " + rootURL);
-        System.out.println("Crawling...");
-
-        logs.add(
-                "\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n");
-        logs.add("\nrootURL: " + rootURL + "\n");
+        long startTime = System.currentTimeMillis();
 
         while (!this.urlsQueue.isEmpty() && depth < this.maxDepth) {
-            logs.add("\nlevel: " + depth + "\n");
+            writeMultithreadedWebCrawlerState("\nlevel: " + depth + "\n", idx);
             int currentLevelSize = this.urlsQueue.size();
             for (int i = 0; i < currentLevelSize; i++) {
                 String currentURL = this.urlsQueue.poll();
-                logs.add("\t" + currentURL + "\n");
+                writeMultithreadedWebCrawlerState("\t" + currentURL + "\n", idx);
                 Document doc;
                 if (this.urlDocMap.containsKey(currentURL)) {
                     doc = this.urlDocMap.get(currentURL);
@@ -248,6 +304,7 @@ class WebCrawler {
                     mainThreadDocProcessedCount++;
                 }
                 if (doc != null) {
+                    writeMultithreadedWebCrawlerState("\tTitle: " + doc.title() + "\n", idx);
                     for (Element link : doc.select("a[href]")) {
                         String nextURL = link.absUrl("href");
                         if (!this.visitedURLs.contains(nextURL)) {
@@ -264,12 +321,17 @@ class WebCrawler {
             }
             depth++;
         }
+
+        long stopTime = System.currentTimeMillis();
+        long elapsedTime = stopTime - startTime;
         System.out.println(">> Web crawling ended for rootURL: " + rootURL);
         System.out.println("\n>> Analytics <<\n");
-        System.out.println("mainThreadDocProcessedCount: " + mainThreadDocProcessedCount
-                + "\nchildThreadDocProcessedCount: " + childThreadDocProcessedCount + "\n");
-        logs.add(
-                "\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
-        return logs;
+        System.out.println(
+                "Total time: " + elapsedTime + " ms\nmainThreadDocProcessedCount: " + mainThreadDocProcessedCount
+                        + "\nchildThreadDocProcessedCount: " + childThreadDocProcessedCount + "\n");
+        writeMultithreadedWebCrawlerState(
+                "\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::",
+                idx);
+        closeMultithreadedWebCrawlerStateWriter(idx);
     }
 }
