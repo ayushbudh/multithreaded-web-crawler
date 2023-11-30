@@ -1,0 +1,106 @@
+
+Root URL: http://quotes.toscrape.com
+
+Level: 0, No. of URLs: 1 Current Level URL: http://quotes.toscrape.com
+	http://quotes.toscrape.com
+	Title: Quotes to Scrape
+
+Level: 1, No. of URLs: 49 Current Level URL: http://quotes.toscrape.com/
+	http://quotes.toscrape.com/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/login
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/author/Albert-Einstein
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/change/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/deep-thoughts/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/thinking/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/world/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/author/J-K-Rowling
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/abilities/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/choices/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/inspirational/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/life/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/live/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/miracle/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/miracles/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/author/Jane-Austen
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/aliteracy/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/books/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/classic/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/humor/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/author/Marilyn-Monroe
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/be-yourself/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/adulthood/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/success/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/value/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/author/Andre-Gide
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/love/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/author/Thomas-A-Edison
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/edison/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/failure/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/paraphrased/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/author/Eleanor-Roosevelt
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/misattributed-eleanor-roosevelt/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/author/Steve-Martin
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/obvious/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/simile/page/1/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/page/2/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/love/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/inspirational/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/life/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/humor/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/books/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/reading/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/friendship/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/friends/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/truth/
+	Title: Quotes to Scrape
+	http://quotes.toscrape.com/tag/simile/
+	Title: Quotes to Scrape
+	https://www.goodreads.com/quotes
+	Title: Popular Quotes
+	https://www.zyte.com
+	Title: World's Leading Web Scraping Service | Zyte

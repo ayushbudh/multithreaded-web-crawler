@@ -1,81 +1,10 @@
+Root URL: http://books.toscrape.com
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-rootURL: http://books.toscrape.com
-
-level: 0
+Level: 0, No. of URLs: 1 Current Level URL: http://books.toscrape.com
 	http://books.toscrape.com
 	Title: All products | Books to Scrape - Sandbox
 
-level: 1
-	http://books.toscrape.com/index.html
-	Title: All products | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books_1/index.html
-	Title: Books | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/travel_2/index.html
-	Title: Travel | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/mystery_3/index.html
-	Title: Mystery | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
-	Title: Historical Fiction | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html
-	Title: Sequential Art | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/classics_6/index.html
-	Title: Classics | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/philosophy_7/index.html
-	Title: Philosophy | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/romance_8/index.html
-	Title: Romance | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html
-	Title: Womens Fiction | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/fiction_10/index.html
-	Title: Fiction | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/childrens_11/index.html
-	Title: Childrens | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/religion_12/index.html
-	Title: Religion | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html
-	Title: Nonfiction | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/music_14/index.html
-	Title: Music | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/default_15/index.html
-	Title: Default | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html
-	Title: Science Fiction | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html
-	Title: Sports and Games | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
-	Title: Add a comment | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html
-	Title: Fantasy | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/new-adult_20/index.html
-	Title: New Adult | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/young-adult_21/index.html
-	Title: Young Adult | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/science_22/index.html
-	Title: Science | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/poetry_23/index.html
-	Title: Poetry | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/paranormal_24/index.html
-	Title: Paranormal | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/art_25/index.html
-	Title: Art | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/psychology_26/index.html
-	Title: Psychology | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/autobiography_27/index.html
-	Title: Autobiography | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/parenting_28/index.html
-	Title: Parenting | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
-	Title: Adult Fiction | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/humor_30/index.html
-	Title: Humor | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/horror_31/index.html
-	Title: Horror | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/history_32/index.html
-	Title: History | Books to Scrape - Sandbox
-	http://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html
-	Title: Food and Drink | Books to Scrape - Sandbox
+Level: 1, No. of URLs: 39 Current Level URL: http://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html
 	http://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html
 	Title: Christian Fiction | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/business_35/index.html
@@ -154,5 +83,3 @@ level: 1
 	Title: It's Only the Himalayas | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/page-2.html
 	Title: All products | Books to Scrape - Sandbox
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

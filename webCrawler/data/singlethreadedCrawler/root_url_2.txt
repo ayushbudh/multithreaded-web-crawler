@@ -1,13 +1,11 @@
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Root URL: http://books.toscrape.com
 
-rootURL: http://books.toscrape.com
-
-level: 0
+Level: 0, No. of URLs: 1
 	http://books.toscrape.com
 	Title: All products | Books to Scrape - Sandbox
 
-level: 1
+Level: 1, No. of URLs: 73
 	http://books.toscrape.com/index.html
 	Title: All products | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books_1/index.html
@@ -154,5 +152,3 @@ level: 1
 	Title: It's Only the Himalayas | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/page-2.html
 	Title: All products | Books to Scrape - Sandbox
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

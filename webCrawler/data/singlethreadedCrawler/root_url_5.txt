@@ -1,0 +1,655 @@
+
+Root URL: https://www.wikipedia.org/
+
+Level: 0, No. of URLs: 1
+	https://www.wikipedia.org/
+	Title: Wikipedia
+
+Level: 1, No. of URLs: 324
+	https://en.wikipedia.org/
+	Title: Wikipedia, the free encyclopedia
+	https://ru.wikipedia.org/
+	Title: Википедия — свободная энциклопедия
+	https://es.wikipedia.org/
+	Title: Wikipedia, la enciclopedia libre
+	https://ja.wikipedia.org/
+	Title: Wikipedia
+	https://de.wikipedia.org/
+	Title: Wikipedia – Die freie Enzyklopädie
+	https://fr.wikipedia.org/
+	Title: Wikipédia, l'encyclopédie libre
+	https://it.wikipedia.org/
+	Title: Wikipedia, l'enciclopedia libera
+	https://zh.wikipedia.org/
+	Title: 维基百科，自由的百科全书
+	https://ar.wikipedia.org/
+	Title: ويكيبيديا، الموسوعة الحرة
+	https://fa.wikipedia.org/
+	Title: ویکی‌پدیا، دانشنامهٔ آزاد
+	https://pl.wikipedia.org/
+	Title: Wikipedia, wolna encyklopedia
+	https://arz.wikipedia.org/
+	Title: ويكيبيديا
+	https://nl.wikipedia.org/
+	Title: Wikipedia, de vrije encyclopedie
+	https://pt.wikipedia.org/
+	Title: Wikipédia, a enciclopédia livre
+	https://ceb.wikipedia.org/
+	Title: Wikipedia
+	https://sv.wikipedia.org/
+	Title: Wikipedia, den fria encyklopedin
+	https://uk.wikipedia.org/
+	Title: Вікіпедія
+	https://vi.wikipedia.org/
+	Title: Wikipedia, bách khoa toàn thư mở
+	https://war.wikipedia.org/
+	Title: Wikipedia
+	https://af.wikipedia.org/
+	Title: Wikipedia
+	https://ast.wikipedia.org/
+	Title: Wikipedia
+	https://az.wikipedia.org/
+	Title: Vikipediya
+	https://bg.wikipedia.org/
+	Title: Уикипедия
+	https://bn.wikipedia.org/
+	Title: উইকিপিডিয়া, একটি মুক্ত বিশ্বকোষ
+	https://be.wikipedia.org/
+	Title: Вікіпедыя
+	https://ca.wikipedia.org/
+	Title: Viquipèdia
+	https://cs.wikipedia.org/
+	Title: Wikipedie, otevřená encyklopedie
+	https://cy.wikipedia.org/
+	Title: Wicipedia
+	https://da.wikipedia.org/
+	Title: Wikipedia, den frie encyklopædi
+	https://et.wikipedia.org/
+	Title: Vikipeedia
+	https://el.wikipedia.org/
+	Title: Βικιπαίδεια
+	https://eo.wikipedia.org/
+	Title: Vikipedio
+	https://eu.wikipedia.org/
+	Title: Wikipedia
+	https://gl.wikipedia.org/
+	Title: Wikipedia, a enciclopedia libre
+	https://ko.wikipedia.org/
+	Title: 위키백과, 우리 모두의 백과사전
+	https://hi.wikipedia.org/
+	Title: विकिपीडिया
+	https://hr.wikipedia.org/
+	Title: Wikipedija
+	https://id.wikipedia.org/
+	Title: Wikipedia bahasa Indonesia, ensiklopedia bebas
+	https://he.wikipedia.org/
+	Title: ויקיפדיה
+	https://ka.wikipedia.org/
+	Title: ვიკიპედია, თავისუფალი ენციკლოპედია
+	https://la.wikipedia.org/
+	Title: Vicipaedia
+	https://lv.wikipedia.org/
+	Title: Vikipēdija
+	https://lt.wikipedia.org/
+	Title: Vikipedija
+	https://hu.wikipedia.org/
+	Title: Wikipédia, a szabad enciklopédia
+	https://mk.wikipedia.org/
+	Title: Википедија
+	https://ms.wikipedia.org/
+	Title: Wikipedia, ensiklopedia bebas
+	https://min.wikipedia.org/
+	Title: Wikipedia Minangkabau
+	https://no.wikipedia.org/
+	Title: Wikipedia, den frie encyklopedi
+	https://nn.wikipedia.org/
+	Title: Wikipedia, det frie oppslagsverket
+	https://uz.wikipedia.org/
+	Title: Vikipediya
+	https://kk.wikipedia.org/
+	Title: Уикипедия
+	https://ro.wikipedia.org/
+	Title: Wikipedia
+	https://simple.wikipedia.org/
+	Title: Wikipedia
+	https://sk.wikipedia.org/
+	Title: Wikipédia
+	https://sl.wikipedia.org/
+	Title: Wikipedija
+	https://sr.wikipedia.org/
+	Title: Википедија
+	https://sh.wikipedia.org/
+	Title: Wikipedija / Википедија
+	https://fi.wikipedia.org/
+	Title: Wikipedia, vapaa tietosanakirja
+	https://ta.wikipedia.org/
+	Title: விக்கிப்பீடியா
+	https://tt.wikipedia.org/
+	Title: Wikipedia
+	https://th.wikipedia.org/
+	Title: วิกิพีเดีย สารานุกรมเสรี
+	https://tg.wikipedia.org/
+	Title: Википедия — донишномаи озод
+	https://azb.wikipedia.org/
+	Title: ویکی‌پدیا، آچیق بیلیک‌لیک
+	https://tr.wikipedia.org/
+	Title: Vikipedi: Özgür Ansiklopedi
+	https://ur.wikipedia.org/
+	Title: ویکیپیڈیا، آزاد دائرۃ المعارف
+	https://ce.wikipedia.org/
+	Title: Википеди — маьрша энциклопеди
+	https://hy.wikipedia.org/
+	Title: Վիքիպեդիա՝ ազատ հանրագիտարան
+	https://my.wikipedia.org/
+	Title: ဝီကီပီးဒီးယား
+	https://zh-yue.wikipedia.org/
+	Title: 維基百科，自由嘅百科全書
+	https://zh-min-nan.wikipedia.org/
+	Title: Wikipedia, chū-iû ê pek-kho-choân-su
+	https://ace.wikipedia.org/
+	Title: Wikipèdia bahsa Acèh
+	https://am.wikipedia.org/
+	Title: ውክፔዲያ
+	https://an.wikipedia.org/
+	Title: Biquipedia
+	https://hyw.wikipedia.org/
+	Title: Ուիքիփետիա
+	https://ban.wikipedia.org/
+	Title: Wikipédia
+	https://bjn.wikipedia.org/
+	Title: Wikipidia Banjar, kindai pangatahuan
+	https://map-bms.wikipedia.org/
+	Title: Wikipedia
+	https://ba.wikipedia.org/
+	Title: Википедия
+	https://be-tarask.wikipedia.org/
+	Title: Вікіпэдыя
+	https://bcl.wikipedia.org/
+	Title: Wikipedia
+	https://bpy.wikipedia.org/
+	Title: উইকিপিডিয়া
+	https://bar.wikipedia.org/
+	Title: Boarische Wikipedia
+	https://bs.wikipedia.org/
+	Title: Wikipedia
+	https://br.wikipedia.org/
+	Title: Wikipedia
+	https://cv.wikipedia.org/
+	Title: Википеди
+	https://nv.wikipedia.org/
+	Title: Wikiibíídiiya Dinék'ehjí (Navajo) - Yá'át'ééh!
+	https://eml.wikipedia.org/
+	Title: Wikipedia
+	https://hif.wikipedia.org/
+	Title: Wikipedia
+	https://fo.wikipedia.org/
+	Title: Wikipedia
+	https://fy.wikipedia.org/
+	Title: Wikipedy
+	https://ga.wikipedia.org/
+	Title: Vicipéid
+	https://gd.wikipedia.org/
+	Title: Uicipeid
+	https://gu.wikipedia.org/
+	Title: વિકિપીડિયા
+	https://hak.wikipedia.org/
+	Title: 維基百科－自由个百科全書
+	https://ha.wikipedia.org/
+	Title: Wikipedia
+	https://hsb.wikipedia.org/
+	Title: Wikipedija
+	https://io.wikipedia.org/
+	Title: Wikipedio
+	https://ig.wikipedia.org/
+	Title: Wikipedia, njikotá édémédé nke onyobulạ
+	https://ilo.wikipedia.org/
+	Title: Wikipedia, ti nawaya nga ensiklopedia
+	https://ia.wikipedia.org/
+	Title: Wikipedia
+	https://ie.wikipedia.org/
+	Title: Wikipedia
+	https://os.wikipedia.org/
+	Title: Википеди
+	https://is.wikipedia.org/
+	Title: Wikipedia, frjálsa alfræðiritið
+	https://jv.wikipedia.org/
+	Title: Wikipédia, bauwarna mardika
+	https://kn.wikipedia.org/
+	Title: ವಿಕಿಪೀಡಿಯ
+	https://km.wikipedia.org/
+	Title: វិគីភីឌា
+	https://ht.wikipedia.org/
+	Title: Wikipedya
+	https://ku.wikipedia.org/
+	Title: Wîkîpediya
+	https://ckb.wikipedia.org/
+	Title: ویکیپیدیا، ئینسایکڵۆپیدیای ئازاد
+	https://ky.wikipedia.org/
+	Title: Википедия
+	https://mrj.wikipedia.org/
+	Title: Википеди
+	https://lb.wikipedia.org/
+	Title: Wikipedia
+	https://lij.wikipedia.org/
+	Title: Wikipedia
+	https://li.wikipedia.org/
+	Title: Wikipedia
+	https://lmo.wikipedia.org/
+	Title: Wikipedia
+	https://mai.wikipedia.org/
+	Title: विकिपिडिया
+	https://mg.wikipedia.org/
+	Title: Wikipedia
+	https://ml.wikipedia.org/
+	Title: വിക്കിപീഡിയ
+	https://mr.wikipedia.org/
+	Title: विकिपीडिया
+	https://xmf.wikipedia.org/
+	Title: ვიკიპედია
+	https://mzn.wikipedia.org/
+	Title: ویکی‌پدیا، آزاد دانشنومه
+	https://cdo.wikipedia.org/
+	Title: Wikipedia - Cê̤ṳ-iù gì Báik-kuŏ-ciòng-cṳ̆
+	https://mn.wikipedia.org/
+	Title: Википедиа
+	https://nap.wikipedia.org/
+	Title: Wikipedia
+	https://new.wikipedia.org/
+	Title: Wikipedia
+	https://ne.wikipedia.org/
+	Title: विकिपिडिया
+	https://frr.wikipedia.org/
+	Title: Wikipedia – Jü fri Änsiiklopedii
+	https://oc.wikipedia.org/
+	Title: Wikipèdia
+	https://mhr.wikipedia.org/
+	Title: Википедий
+	https://or.wikipedia.org/
+	Title: ଉଇକିପିଡ଼ିଆ
+	https://as.wikipedia.org/
+	Title: অসমীয়া ৱিকিপিডিয়া
+	https://pa.wikipedia.org/
+	Title: ਵਿਕੀਪੀਡੀਆ, ਇਕ ਅਜ਼ਾਦ ਵਿਸ਼ਵਗਿਆਨਕੋਸ਼
+	https://pnb.wikipedia.org/
+	Title: وکیپیڈیا
+	https://ps.wikipedia.org/
+	Title: لومړی مخ - ويکيپېډيا
+	https://pms.wikipedia.org/
+	Title: Wikipedia
+	https://nds.wikipedia.org/
+	Title: Wikipedia, dat fre'e Nakieksel
+	https://crh.wikipedia.org/
+	Title: Vikipediya
+	https://qu.wikipedia.org/
+	Title: Wikipedia
+	https://sa.wikipedia.org/
+	Title: विकिपीडिया
+	https://sat.wikipedia.org/
+	Title: ᱣᱤᱠᱤᱯᱤᱰᱤᱭᱟ
+	https://sah.wikipedia.org/
+	Title: Бикипиэдьийэ
+	https://sco.wikipedia.org/
+	Title: Wikipedia
+	https://sn.wikipedia.org/
+	Title: Wikipedia
+	https://sq.wikipedia.org/
+	Title: Wikipedia
+	https://scn.wikipedia.org/
+	Title: Wikipedia
+	https://si.wikipedia.org/
+	Title: විකිපීඩියා
+	https://sd.wikipedia.org/
+	Title: وڪيپيڊيا
+	https://szl.wikipedia.org/
+	Title: Wikipedyjo, swobodno yncyklopedyjo
+	https://su.wikipedia.org/
+	Title: Wikipédia Sunda, énsiklopédi bébas
+	https://sw.wikipedia.org/
+	Title: Wikipedia
+	https://tl.wikipedia.org/
+	Title: Wikipedia, ang malayang ensiklopedya
+	https://shn.wikipedia.org/
+	Title: ဝီႇၶီႇၽီးတီးယႃး
+	https://te.wikipedia.org/
+	Title: వికీపీడియా
+	https://tum.wikipedia.org/
+	Title: Wikipedia
+	https://bug.wikipedia.org/
+	Title: Wikipedia
+	https://vec.wikipedia.org/
+	Title: Wikipedia, ła ensiclopedia łìbara in łéngua Vèneta
+	https://vo.wikipedia.org/
+	Title: Vükiped
+	https://wa.wikipedia.org/
+	Title: Wikipedia
+	https://zh-classical.wikipedia.org/
+	Title: 維基大典
+	https://wuu.wikipedia.org/
+	Title: 维基百科，自由个百科全书
+	https://yi.wikipedia.org/
+	Title: װיקיפּעדיע
+	https://yo.wikipedia.org/
+	Title: Wikipedia
+	https://diq.wikipedia.org/
+	Title: Wikipedia
+	https://zu.wikipedia.org/
+	Title: Wikipedia
+	https://lad.wikipedia.org/
+	Title: Vikipedya
+	https://kbd.wikipedia.org/
+	Title: Уикипедиэ
+	https://ang.wikipedia.org/
+	Title: Wikipǣdia
+	https://smn.wikipedia.org/
+	Title: Wikipedia
+	https://anp.wikipedia.org/
+	Title: विकिपीडिया
+	https://ab.wikipedia.org/
+	Title: Авикипедиа, зхы иақәиҭу аенциклопедиа
+	https://frp.wikipedia.org/
+	Title: Vouiquipèdia
+	https://arc.wikipedia.org/
+	Title: ܘܝܩܝܦܕܝܐ
+	https://gn.wikipedia.org/
+	Title: Vikipetã
+	https://av.wikipedia.org/
+	Title: Википедия — эркенаб энциклопедия
+	https://ay.wikipedia.org/
+	Title: Wikipedia
+	https://bh.wikipedia.org/
+	Title: विकिपीडिया
+	https://bi.wikipedia.org/
+	Title: Wikipedia
+	https://bo.wikipedia.org/
+	Title: Wikipedia
+	https://bxr.wikipedia.org/
+	Title: Wikipedia
+	https://cbk-zam.wikipedia.org/
+	Title: Wikipedia
+	https://ny.wikipedia.org/
+	Title: Wikipedia – Encyclopedia Yaulere
+	https://co.wikipedia.org/
+	Title: Wikipedia
+	https://za.wikipedia.org/
+	Title: Wikipedia
+	https://dag.wikipedia.org/
+	Title: Dagbani Wikipedia
+	https://ary.wikipedia.org/
+	Title: ويكيپيديا
+	https://se.wikipedia.org/
+	Title: Wikipedia
+	https://pdc.wikipedia.org/
+	Title: Wikipedia
+	https://dv.wikipedia.org/
+	Title: ވިކިޕީޑިއާ
+	https://dsb.wikipedia.org/
+	Title: Wikipedija
+	https://myv.wikipedia.org/
+	Title: Википедиясь
+	https://ext.wikipedia.org/
+	Title: Güiquipeya
+	https://ff.wikipedia.org/
+	Title: Wikipedia
+	https://fur.wikipedia.org/
+	Title: Vichipedie
+	https://gv.wikipedia.org/
+	Title: Wikipedia
+	https://gag.wikipedia.org/
+	Title: Vikipediya
+	https://inh.wikipedia.org/
+	Title: Википеди
+	https://ki.wikipedia.org/
+	Title: Wikipedia
+	https://glk.wikipedia.org/
+	Title: Wikipedia
+	https://gan.wikipedia.org/
+	Title: 維基百科，自由嗰百科全書
+	https://guw.wikipedia.org/
+	Title: Wikipedia
+	https://xal.wikipedia.org/
+	Title: Wikipedia
+	https://haw.wikipedia.org/
+	Title: Wikipedia
+	https://rw.wikipedia.org/
+	Title: Wikipedia
+	https://kbp.wikipedia.org/
+	Title: Wikipediya
+	https://pam.wikipedia.org/
+	Title: Wikipedia
+	https://csb.wikipedia.org/
+	Title: Wikipedijô, wòlnô encyklopedijô
+	https://kw.wikipedia.org/
+	Title: Wikipedia, an godhoniador rydh
+	https://kv.wikipedia.org/
+	Title: Wikipedia
+	https://koi.wikipedia.org/
+	Title: Википедия
+	https://kg.wikipedia.org/
+	Title: Wikipedia
+	https://gom.wikipedia.org/
+	Title: विकिपीडिया
+	https://ks.wikipedia.org/
+	Title: وِکیٖپیٖڈیا
+	https://gcr.wikipedia.org/
+	Title: Wikipédja
+	https://lo.wikipedia.org/
+	Title: ວິກິພີເດຍ
+	https://lbe.wikipedia.org/
+	Title: Википедия
+	https://ltg.wikipedia.org/
+	Title: Vikipedeja
+	https://lez.wikipedia.org/
+	Title: Википедия
+	https://nia.wikipedia.org/
+	Title: Wikipedia
+	https://ln.wikipedia.org/
+	Title: Wikipedia
+	https://jbo.wikipedia.org/
+	Title: Wikipedia
+	https://lg.wikipedia.org/
+	Title: Wikipedia
+	https://mad.wikipedia.org/
+	Title: Wikipedia
+	https://mt.wikipedia.org/
+	Title: Wikipedija
+	https://mi.wikipedia.org/
+	Title: Wikipedia
+	https://tw.wikipedia.org/
+	Title: Wikipedia
+	https://mwl.wikipedia.org/
+	Title: Biquipédia
+	https://mdf.wikipedia.org/
+	Title: Википедиесь
+	https://mnw.wikipedia.org/
+	Title: ဝဳကဳပဳဒဳယာ
+	https://nqo.wikipedia.org/
+	Title: ߥߞߌߔߘߋߞߎ
+	https://fj.wikipedia.org/
+	Title: Wikipedia
+	https://nah.wikipedia.org/
+	Title: Huiquipedia
+	https://nds-nl.wikipedia.org/
+	Title: Wikipedia
+	https://nrm.wikipedia.org/
+	Title: Wikipedia
+	https://nov.wikipedia.org/
+	Title: Wikipedia
+	https://om.wikipedia.org/
+	Title: Wikipedia
+	https://blk.wikipedia.org/
+	Title: ဝီခီပီးဒီးယား
+	https://pi.wikipedia.org/
+	Title: Wikipedia
+	https://pag.wikipedia.org/
+	Title: Wikipedia
+	https://ami.wikipedia.org/
+	Title: Wikipedia
+	https://pap.wikipedia.org/
+	Title: Wikipedia
+	https://pfl.wikipedia.org/
+	Title: Wikipedia
+	https://pcd.wikipedia.org/
+	Title: Wikipedia
+	https://krc.wikipedia.org/
+	Title: Википедия
+	https://kaa.wikipedia.org/
+	Title: Wikipedia
+	https://ksh.wikipedia.org/
+	Title: Wikipedia
+	https://rmy.wikipedia.org/
+	Title: Vikipidiya
+	https://rm.wikipedia.org/
+	Title: Wikipedia
+	https://rue.wikipedia.org/
+	Title: Вікіпедія
+	https://sm.wikipedia.org/
+	Title: Wikipedia
+	https://skr.wikipedia.org/
+	Title: وکیپیڈیا
+	https://sc.wikipedia.org/
+	Title: Wikipedia
+	https://trv.wikipedia.org/
+	Title: Wikipidiya
+	https://stq.wikipedia.org/
+	Title: Wikipedia
+	https://nso.wikipedia.org/
+	Title: Wikipedia
+	https://tn.wikipedia.org/
+	Title: Wikipedia
+	https://cu.wikipedia.org/
+	Title: Википєдїꙗ · отврьста єнкѷклопєдїꙗ
+	https://so.wikipedia.org/
+	Title: Wikipedia
+	https://srn.wikipedia.org/
+	Title: Wikipedia
+	https://zgh.wikipedia.org/
+	Title: ⵡⵉⴽⵉⴱⵉⴷⵢⴰ
+	https://kab.wikipedia.org/
+	Title: Wikipedia
+	https://roa-tara.wikipedia.org/
+	Title: Wikipedia
+	https://tet.wikipedia.org/
+	Title: Wikipedia
+	https://tpi.wikipedia.org/
+	Title: Wikipedia
+	https://to.wikipedia.org/
+	Title: Wikipedia
+	https://chr.wikipedia.org/
+	Title: Wikipedia
+	https://tk.wikipedia.org/
+	Title: Wikipediýa
+	https://tyv.wikipedia.org/
+	Title: Википедия
+	https://udm.wikipedia.org/
+	Title: Википедия
+	https://ug.wikipedia.org/
+	Title: Wikipedia
+	https://vep.wikipedia.org/
+	Title: Vikipedii
+	https://vls.wikipedia.org/
+	Title: Wikipedia
+	https://wo.wikipedia.org/
+	Title: Wikipedia
+	https://xh.wikipedia.org/
+	Title: Wikipedia
+	https://zea.wikipedia.org/
+	Title: Wikipedia
+	https://ty.wikipedia.org/
+	Title: Wikipedia
+	https://bm.wikipedia.org/
+	Title: Wikipedia
+	https://ch.wikipedia.org/
+	Title: Wikipedia
+	https://dga.wikipedia.org/
+	https://ee.wikipedia.org/
+	Title: Wikipedia
+	https://gur.wikipedia.org/
+	Title: Wikipiidiya
+	https://fon.wikipedia.org/
+	Title: Wikipedya
+	https://got.wikipedia.org/
+	Title: Wikipedia
+	https://iu.wikipedia.org/
+	Title: ᐅᐃᑭᐱᑎᐊ
+	https://ik.wikipedia.org/
+	Title: Wikipedia
+	https://kl.wikipedia.org/
+	Title: Wikipedia
+	https://fat.wikipedia.org/
+	Title: Wikipedia
+	https://cr.wikipedia.org/
+	Title: Wikipedia
+	https://pih.wikipedia.org/
+	Title: Wikipedia
+	https://pwn.wikipedia.org/
+	Title: Wikipedia
+	https://pnt.wikipedia.org/
+	Title: Βικιπαίδεια
+	https://dz.wikipedia.org/
+	Title: Wikipedia
+	https://rn.wikipedia.org/
+	Title: Wikipedia
+	https://sg.wikipedia.org/
+	Title: Wikipedia
+	https://st.wikipedia.org/
+	Title: Wikipedia
+	https://ss.wikipedia.org/
+	Title: Wikipedia
+	https://ti.wikipedia.org/
+	Title: ዊኪፐድያ፣ ናጻ ኢንሳይክሎፐድያ
+	https://din.wikipedia.org/
+	Title: Wikipedia
+	https://chy.wikipedia.org/
+	Title: Tsétsêhéstâhese Wikipedia
+	https://ts.wikipedia.org/
+	Title: Wikipedia
+	https://kcg.wikipedia.org/
+	Title: Wikipedia
+	https://ve.wikipedia.org/
+	Title: Wikipedia
+	https://guc.wikipedia.org/
+	Title: Wikipeetia
+	https://meta.wikimedia.org/wiki/Special:MyLanguage/List_of_Wikipedias
+	Title: List of Wikipedias - Meta
+	https://www.wikipedia.org/#
+	Title: Wikipedia
+	https://donate.wikimedia.org/?utm_medium=portal&utm_campaign=portalFooter&utm_source=portalFooter
+	Title: Make your donation now - Wikimedia Foundation
+	https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications
+	Title: List of Wikipedia mobile applications - Wikipedia
+	https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dportal%26utm_medium%3Dbutton%26anid%3Dadmob
+	Title: Wikipedia - Apps on Google Play
+	https://itunes.apple.com/app/apple-store/id324715238?pt=208305&ct=portal&mt=8
+	Title: ‎Wikipedia on the App Store
+	https://commons.wikimedia.org/
+	Title: Wikimedia Commons
+	https://www.wikivoyage.org/
+	Title: Wikivoyage
+	https://www.wiktionary.org/
+	Title: Wiktionary
+	https://www.wikibooks.org/
+	Title: Wikibooks
+	https://www.wikinews.org/
+	Title: Wikinews
+	https://www.wikidata.org/
+	Title: Wikidata
+	https://www.wikiversity.org/
+	Title: Wikiversity
+	https://www.wikiquote.org/
+	Title: Wikiquote
+	https://www.mediawiki.org/
+	Title: MediaWiki
+	https://www.wikisource.org/
+	Title: Wikisource
+	https://species.wikimedia.org/
+	Title: Wikispecies, free species directory
+	https://www.wikifunctions.org/
+	Title: Wikifunctions
+	https://meta.wikimedia.org/
+	Title: Main Page - Meta
+	https://creativecommons.org/licenses/by-sa/4.0/
+	Title: CC BY-SA 4.0 Deed | Attribution-ShareAlike 4.0 International | Creative Commons
+	https://meta.wikimedia.org/wiki/Terms_of_use
+	Title: Terms of use - Meta
+	https://meta.wikimedia.org/wiki/Privacy_policy
+	Title: Privacy policy - Meta

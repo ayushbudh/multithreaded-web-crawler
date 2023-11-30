@@ -1,84 +1,154 @@
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+Root URL: http://books.toscrape.com
 
-rootURL: http://books.toscrape.com
-
-level: 0
+Level: 0, No. of URLs: 1 Current Level URL: http://books.toscrape.com
 	http://books.toscrape.com
+	Title: All products | Books to Scrape - Sandbox
 
-level: 1
+Level: 1, No. of URLs: 73 Current Level URL: http://books.toscrape.com/index.html
 	http://books.toscrape.com/index.html
+	Title: All products | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books_1/index.html
+	Title: Books | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/travel_2/index.html
+	Title: Travel | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/mystery_3/index.html
+	Title: Mystery | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+	Title: Historical Fiction | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html
+	Title: Sequential Art | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/classics_6/index.html
+	Title: Classics | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/philosophy_7/index.html
+	Title: Philosophy | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/romance_8/index.html
+	Title: Romance | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/womens-fiction_9/index.html
+	Title: Womens Fiction | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/fiction_10/index.html
+	Title: Fiction | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/childrens_11/index.html
+	Title: Childrens | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/religion_12/index.html
+	Title: Religion | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/nonfiction_13/index.html
+	Title: Nonfiction | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/music_14/index.html
+	Title: Music | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/default_15/index.html
+	Title: Default | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html
+	Title: Science Fiction | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html
+	Title: Sports and Games | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+	Title: Add a comment | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/fantasy_19/index.html
+	Title: Fantasy | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/new-adult_20/index.html
+	Title: New Adult | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/young-adult_21/index.html
+	Title: Young Adult | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/science_22/index.html
+	Title: Science | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+	Title: Poetry | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/paranormal_24/index.html
+	Title: Paranormal | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/art_25/index.html
+	Title: Art | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/psychology_26/index.html
+	Title: Psychology | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/autobiography_27/index.html
+	Title: Autobiography | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/parenting_28/index.html
+	Title: Parenting | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+	Title: Adult Fiction | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/humor_30/index.html
+	Title: Humor | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/horror_31/index.html
+	Title: Horror | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/history_32/index.html
+	Title: History | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html
+	Title: Food and Drink | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html
+	Title: Christian Fiction | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/business_35/index.html
+	Title: Business | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/biography_36/index.html
+	Title: Biography | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/thriller_37/index.html
+	Title: Thriller | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/contemporary_38/index.html
+	Title: Contemporary | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/spirituality_39/index.html
+	Title: Spirituality | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/academic_40/index.html
+	Title: Academic | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/self-help_41/index.html
+	Title: Self Help | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/historical_42/index.html
+	Title: Historical | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/christian_43/index.html
+	Title: Christian | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/suspense_44/index.html
+	Title: Suspense | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/short-stories_45/index.html
+	Title: Short Stories | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/novels_46/index.html
+	Title: Novels | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/health_47/index.html
+	Title: Health | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/politics_48/index.html
+	Title: Politics | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/cultural_49/index.html
+	Title: Cultural | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/erotica_50/index.html
+	Title: Erotica | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/category/books/crime_51/index.html
+	Title: Crime | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+	Title: A Light in the Attic | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html
+	Title: Tipping the Velvet | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/soumission_998/index.html
+	Title: Soumission | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/sharp-objects_997/index.html
+	Title: Sharp Objects | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html
+	Title: Sapiens: A Brief History of Humankind | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/the-requiem-red_995/index.html
+	Title: The Requiem Red | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html
+	Title: The Dirty Little Secrets of Getting Your Dream Job | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html
+	Title: The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html
+	Title: The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/the-black-maria_991/index.html
+	Title: The Black Maria | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html
+	Title: Starving Hearts (Triangular Trade Trilogy, #1) | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html
+	Title: Shakespeare's Sonnets | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/set-me-free_988/index.html
+	Title: Set Me Free | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html
+	Title: Scott Pilgrim's Precious Little Life (Scott Pilgrim #1) | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html
+	Title: Rip it Up and Start Again | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html
+	Title: Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991 | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/olio_984/index.html
+	Title: Olio | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html
+	Title: Mesaerion: The Best Science Fiction Stories 1800-1849 | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html
+	Title: Libertarianism for Beginners | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html
+	Title: It's Only the Himalayas | Books to Scrape - Sandbox
 	http://books.toscrape.com/catalogue/page-2.html
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+	Title: All products | Books to Scrape - Sandbox

@@ -1,0 +1,14 @@
+Termination state: Processed level nth and it's direct nav links but didn't processed n+1th level
+
+root_url_n.txt
+---------------------------------------------------------------------------------------------------------------
+
+Root URL: https://dictionary.com
+
+Level: 0, No. of URLs: 1
+	https://dictionary.com
+	Title: Dictionary.com | Meanings & Definitions of English Words
+
+Level: 1, No. of URLs: 71
+
+---------------------------------------------------------------------------------------------------------------

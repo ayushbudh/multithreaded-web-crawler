@@ -1,11 +1,15 @@
+Termination state: Anywhere in the middle of processing a depth
+
+root_url_n.txt
+---------------------------------------------------------------------------------------------------------------
 
 Root URL: https://dictionary.com
 
-Level: 0, No. of URLs: 1 Current Level URL: https://dictionary.com
+Level: 0, No. of URLs: 1
 	https://dictionary.com
 	Title: Dictionary.com | Meanings & Definitions of English Words
 
-Level: 1, No. of URLs: 71 Current Level URL: http://www.dictionary.com:80
+Level: 1, No. of URLs: 71
 	http://www.dictionary.com:80
 	Title: Dictionary.com | Meanings & Definitions of English Words
 	http://www.thesaurus.com:80
@@ -27,9 +31,9 @@ Level: 1, No. of URLs: 71 Current Level URL: http://www.dictionary.com:80
 	https://www.dictionary.com/e/word-finder/
 	Title: Word Finder & Unscrambler | Dictionary.com
 	https://www.dictionary.com/e/word-of-the-day/
-	Title: Word of the Day - bosky | Dictionary.com
+	Title: Word of the Day - gâteau | Dictionary.com
 	https://www.thesaurus.com/e/synonym-of-the-day/
-	Title: Synonym of the Day - hoarfrost | Thesaurus.com
+	Title: Synonym of the Day - comforter | Thesaurus.com
 	https://www.dictionary.com/e/word-of-the-year/
 	Title: Dictionary.com’s 2022 Word Of The Year Is… | Dictionary.com
 	https://www.dictionary.com/e/c/new-words/
@@ -54,12 +58,12 @@ Level: 1, No. of URLs: 71 Current Level URL: http://www.dictionary.com:80
 	Title: Grammar Articles | Thesaurus.com
 	https://www.dictionary.com/e/c/language-stories/commonly-confused/
 	Title: Commonly Confused Articles - Dictionary.com
-	https://www.dictionary.com/e/word-of-the-day/bosky-2023-12-02/
-	Title: Word of the Day - bosky | Dictionary.com
+	https://www.dictionary.com/e/word-of-the-day/gateau-2023-11-30/
+	Title: Word of the Day - gâteau | Dictionary.com
 	https://www.dictionary.com/e/terms/
 	Title: Terms of Service & Privacy Policy - Dictionary.com
-	https://www.thesaurus.com/e/writing/how-do-i-write-a-holiday-card/
-	Title: What to Write in a Holiday Card: Kind Messages for 2023 | Thesaurus.com
+	https://www.dictionary.com/e/pop-culture/angel-number/
+	Title: angel number Meaning | Pop Culture by Dictionary.com
 	https://www.dictionary.com/e/crossword/
 	Title: Daily Crossword Puzzles | Play Free at Dictionary.com
 	https://play.dictionary.com/games/todays-hurdle
@@ -68,12 +72,12 @@ Level: 1, No. of URLs: 71 Current Level URL: http://www.dictionary.com:80
 	Title: Free Word Puzzle Online | Dictionary.com
 	https://play.dictionary.com/games/word-wipe
 	Title: Play Word Wipe | Free Games & Puzzles - Dictionary.com
-	https://www.thesaurus.com/e/grammar/tis-the-season/
-	Title: Is It Tis The Season Or ’Tis The Season? - Thesaurus.com
-	https://www.thesaurus.com/e/ways-to-say/other-ways-to-say-merry-xmas/
-	Title: What Are Other Ways To Wish Someone A Merry Christmas? - Thesaurus.com
-	https://www.dictionary.com/e/word-games-elf-on-shelf/
-	Title: 7 Word Games To Do With Your Elf On The Shelf | Dictionary.com
+	https://www.dictionary.com/e/pop-culture/333-angel-number/
+	Title: 333 angel number Meaning | Pop Culture by Dictionary.com
+	https://www.thesaurus.com/e/ways-to-say/s/fun-synonyms/#1
+	Title: 10 Words To Use Instead Of "Fun" | Thesaurus.com
+	https://www.thesaurus.com/e/ways-to-say/how-to-ask-for-donations/
+	Title: 6 Ways To Politely Ask For Donations | DIctionary.com
 	https://www.thesaurus.com/e/ways-to-say/yams-sweet-potatoes/
 	Title: Yams vs. Sweet Potatoes: Are They The Same? | Thesaurus.com
 	https://www.dictionary.com/e/pop-culture/xyzbca/
@@ -120,31 +124,5 @@ Level: 1, No. of URLs: 71 Current Level URL: http://www.dictionary.com:80
 	Title: Browse Dictionary.com | Words Starting With "P"
 	http://www.dictionary.com:80/list/q
 	Title: Browse Dictionary.com | Words Starting With "Q"
-	http://www.dictionary.com:80/list/r
-	Title: Browse Dictionary.com | Words Starting With "R"
-	http://www.dictionary.com:80/list/s
-	Title: Browse Dictionary.com | Words Starting With "S"
-	http://www.dictionary.com:80/list/t
-	Title: Browse Dictionary.com | Words Starting With "T"
-	http://www.dictionary.com:80/list/u
-	Title: Browse Dictionary.com | Words Starting With "U"
-	http://www.dictionary.com:80/list/v
-	Title: Browse Dictionary.com | Words Starting With "V"
-	http://www.dictionary.com:80/list/w
-	Title: Browse Dictionary.com | Words Starting With "W"
-	http://www.dictionary.com:80/list/x
-	Title: Browse Dictionary.com | Words Starting With "X"
-	http://www.dictionary.com:80/list/y
-	Title: Browse Dictionary.com | Words Starting With "Y"
-	http://www.dictionary.com:80/list/z
-	Title: Browse Dictionary.com | Words Starting With "Z"
-	https://www.dictionary.com/e/about/
-	Title: About - Dictionary.com
-	https://www.myrocketcareer.com/DictionaryJobs/
-	Title: Dictionary.com Jobs - Rocket Careers
-	https://store.dictionary.com
-	Title: Dictionary.com – Dictionarycom
-	https://www.dictionary.com/e/contact/
-	Title: Contact Us - Dictionary.com
-	https://www.dictionary.com/e/advertise-with-us/
-	Title: Advertise With Us - Dictionary.com
+
+	---------------------------------------------------------------------------------------------------------------

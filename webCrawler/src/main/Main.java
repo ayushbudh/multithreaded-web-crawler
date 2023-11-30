@@ -18,7 +18,8 @@ public class Main {
 	}
 
 	public static void main(String args[]) {
-		String URLS[] = { "https://dictionary.com", "http://books.toscrape.com" };
+		String URLS[] = { "https://dictionary.com", "http://books.toscrape.com", "http://quotes.toscrape.com",
+				"https://www.example.com/", "https://www.wikipedia.org/" };
 		int noOfThreads = 3;
 		int maxDepth = 2;
 
