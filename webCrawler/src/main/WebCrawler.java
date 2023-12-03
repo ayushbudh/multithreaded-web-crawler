@@ -420,7 +420,9 @@ class WebCrawler {
             // TODO: stopThreads shouldn't be needed to called here.
             stopThreads();
             deleteMultithreadedDataDirectoryFiles();
+            clearState();
             System.out.println("\n>> New execution...");
+            this.visitedURLs.clear();
             for (int k = 0; k < this.URLs.length; k++) {
                 createThreads();
                 multiThreadedCrawl(URLs[k], k, 0, true);
@@ -437,6 +439,7 @@ class WebCrawler {
                 "\n:::::::::::::::::::::::::::::::::: Multithreaded Web Crawler ::::::::::::::::::::::::::::::::::");
         if (numberOfFiles == 0) {
             System.out.println("\n>> New execution...");
+            this.visitedURLs.clear();
             for (int i = 0; i < this.URLs.length; i++) {
                 createThreads();
                 multiThreadedCrawl(URLs[i], i, 0, true);
@@ -450,7 +453,8 @@ class WebCrawler {
                 "\n:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::\n");
     }
 
-    // This is the entry point method for the singlethreaded web crawler
+    // This is the entry point method for the singlethreaded web crawler (this
+    // method was just used for testing purpose)
     public void startSinglethreadedWebCrawler() {
         this.visitedURLs.clear();
         System.out.println(
