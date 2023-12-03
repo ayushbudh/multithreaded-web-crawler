@@ -1,0 +1,49 @@
+urlCount = 0
+file = File('root_url_n.txt')
+totalURLsProcessedOnaFile = 0
+# [expctedURLS, actualURLS(from file)] for each level
+expectedActualls = [] -> convert to map: expectedActualListMap: List<Map<String, List>> ex:  { "wikipedia.org": [-1, 100] }
+
+while ( (line = file.nextLine()) != null)
+    if(level = getLevelByDepthLabel(line) != null)
+        if expectedActualls.len > 0:
+            expec, actu = expectedActualls[-1]
+            expectedActualls[-1] = [urlCount, actua]
+        noOfURLS = getNoOfURLSByLabel(line)
+        expectedActualls.append([-1, noOfURLS]) # -1 indicating unknown
+        urlCount = 0
+
+    if (skipROOTURL && (currURL = getURLByStringStartsWithHTTP()) != null)
+        totalURLsProcessedOnaFile = totalURLsProcessedOnaFile + 1
+        urlsForVisitedSet.add(currURL)
+        urlCount = urlCount + 1
+
+if totalURLsProcessedOnaFile == 0:
+    # empty file is created with no content
+    crawl(URLS[noOfFilesIdx], noOfFilesIdx)
+
+elif totalURLsProcessedOnaFile == 1:
+    # only Root URL: URL line is present
+    crawl(URLS[noOfFilesIdx], noOfFilesIdx)
+
+if urlCount != 0:
+    expec, actu = expectedActualls[-1]
+    expectedActualls[-1] = [urlCount, actua]
+
+for expec, actu, idx in expectedActualls.reverseOrder:
+    expec, actu = expectedActualls
+    if expec != actu:
+        crawl(expectedActualListMap[idx-1], noOfFilesIdx)
+
+if idx >= len(expectedActualls.reverseOrder):
+    # file creation before it
+    if noOfFilesIdx + 1 >= URLs.len:
+        clearDataDirectories()
+        for (i =0 ... URLS.len)
+            crawl(URLS[i], i)
+    crawl(URLS[noOfFilesIdx+1], noOfFilesIdx+1)
+
+# add URLS to global visited set
+visitedURSL.addAll(urlsForVisitedSet...)
+
+# applicable to all termination states

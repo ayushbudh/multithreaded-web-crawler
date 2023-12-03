@@ -1,0 +1,6 @@
+
+Root URL: https://www.example.com/
+
+Level: 0, No. of URLs: 1 Current Level URL: https://www.example.com/
+	https://www.example.com/
+	Title: Example Domain

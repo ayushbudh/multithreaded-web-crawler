@@ -1,13 +1,35 @@
 package main;
 
 public class Main {
-	// Main class is designed to test the webcrawler
-  public static void main( String[] args) {
-	  int maxDepth=2;
-	  int numThreads=3;
-	
-	   Bot bot= new Bot("https://dictionary.com",maxDepth, numThreads);
-	   
-	   bot.startBot();
-}
+	private static class ShutDownTask extends Thread {
+		private WebCrawler webCrawler;
+
+		public ShutDownTask(WebCrawler webCrawler) {
+			this.webCrawler = webCrawler;
+		}
+
+		@Override
+		public void run() {
+			System.out.println(">> Performing shutdown");
+			System.out.println("Cleaning resources ...");
+			webCrawler.releaseResources();
+			System.out.println("Resources cleaned!\n");
+		}
+	}
+
+	public static void main(String args[]) {
+		String URLS[] = { "https://dictionary.com", "http://books.toscrape.com", "http://quotes.toscrape.com",
+				"https://www.example.com/", "https://www.wikipedia.org/" };
+		int noOfThreads = 3;
+		int maxDepth = 2;
+
+		WebCrawler webCrawler = new WebCrawler(URLS, noOfThreads, maxDepth);
+		ShutDownTask shutDownTask = new ShutDownTask(webCrawler);
+
+		// add shutdown hook to clean resources during program termination
+		Runtime.getRuntime().addShutdownHook(shutDownTask);
+
+		webCrawler.startMultithreadedWebCrawler();
+		webCrawler.startSinglethreadedWebCrawler();
+	}
 }

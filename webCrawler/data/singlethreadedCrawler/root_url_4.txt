@@ -1,0 +1,10 @@
+
+Root URL: https://www.example.com/
+
+Level: 0, No. of URLs: 1
+	https://www.example.com/
+	Title: Example Domain
+
+Level: 1, No. of URLs: 1
+	https://www.iana.org/domains/example
+	Title: Example Domains

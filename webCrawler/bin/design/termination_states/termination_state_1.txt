@@ -1,0 +1,128 @@
+Termination state: Anywhere in the middle of processing a depth
+
+root_url_n.txt
+---------------------------------------------------------------------------------------------------------------
+
+Root URL: https://dictionary.com
+
+Level: 0, No. of URLs: 1
+	https://dictionary.com
+	Title: Dictionary.com | Meanings & Definitions of English Words
+
+Level: 1, No. of URLs: 71
+	http://www.dictionary.com:80
+	Title: Dictionary.com | Meanings & Definitions of English Words
+	http://www.thesaurus.com:80
+	Title: Synonyms and Antonyms of Words | Thesaurus.com
+	https://play.dictionary.com
+	Title: Play Free Online Games | Free Games | Dictionary.com
+	https://www.dictionary.com/e/
+	Title: Language Stories And Fun Facts About Words | Dictionary.com
+	https://www.dictionary.com/e/all-the-words/
+	Title: Language And Culture | Dictionary.com
+	https://www.thesaurus.com/e/
+	Title: Writing And Grammar Tips, Guides, And More | Thesaurus.com
+	http://www.dictionary.com:80/sign-in
+	Title: 
+	https://www.dictionary.com/e/crossword
+	Title: Daily Crossword Puzzles | Play Free at Dictionary.com
+	http://www.dictionary.com:80/games/word-puzzle
+	Title: Free Word Puzzle Online | Dictionary.com
+	https://www.dictionary.com/e/word-finder/
+	Title: Word Finder & Unscrambler | Dictionary.com
+	https://www.dictionary.com/e/word-of-the-day/
+	Title: Word of the Day - gâteau | Dictionary.com
+	https://www.thesaurus.com/e/synonym-of-the-day/
+	Title: Synonym of the Day - comforter | Thesaurus.com
+	https://www.dictionary.com/e/word-of-the-year/
+	Title: Dictionary.com’s 2022 Word Of The Year Is… | Dictionary.com
+	https://www.dictionary.com/e/c/new-words/
+	Title: New Words - Dictionary.com
+	https://www.dictionary.com/e/c/language-stories/
+	Title: Word Facts | Dictionary.com
+	https://www.dictionary.com/e/slang/
+	Title: Slang Archives - Dictionary.com
+	https://www.dictionary.com/e/emoji/
+	Title: Emoji Archives - Dictionary.com
+	https://www.dictionary.com/e/memes/
+	Title: Memes Archives - Dictionary.com
+	https://www.dictionary.com/e/acronyms/
+	Title: Acronyms Archives - Dictionary.com
+	https://www.dictionary.com/e/gender-sexuality/
+	Title: Gender & Sexuality Archives - Dictionary.com
+	https://www.grammarcoach.com
+	Title: Grammar Checker and Online Writing Helper | Grammar Coach
+	https://www.thesaurus.com/e/writing/
+	Title: Improve Writing Skills | Thesaurus.com
+	https://www.thesaurus.com/e/grammar/
+	Title: Grammar Articles | Thesaurus.com
+	https://www.dictionary.com/e/c/language-stories/commonly-confused/
+	Title: Commonly Confused Articles - Dictionary.com
+	https://www.dictionary.com/e/word-of-the-day/gateau-2023-11-30/
+	Title: Word of the Day - gâteau | Dictionary.com
+	https://www.dictionary.com/e/terms/
+	Title: Terms of Service & Privacy Policy - Dictionary.com
+	https://www.dictionary.com/e/pop-culture/angel-number/
+	Title: angel number Meaning | Pop Culture by Dictionary.com
+	https://www.dictionary.com/e/crossword/
+	Title: Daily Crossword Puzzles | Play Free at Dictionary.com
+	https://play.dictionary.com/games/todays-hurdle
+	Title: Hurdle Game | Daily Word Solver Puzzle | Dictionary.com
+	https://www.dictionary.com/games/word-puzzle
+	Title: Free Word Puzzle Online | Dictionary.com
+	https://play.dictionary.com/games/word-wipe
+	Title: Play Word Wipe | Free Games & Puzzles - Dictionary.com
+	https://www.dictionary.com/e/pop-culture/333-angel-number/
+	Title: 333 angel number Meaning | Pop Culture by Dictionary.com
+	https://www.thesaurus.com/e/ways-to-say/s/fun-synonyms/#1
+	Title: 10 Words To Use Instead Of "Fun" | Thesaurus.com
+	https://www.thesaurus.com/e/ways-to-say/how-to-ask-for-donations/
+	Title: 6 Ways To Politely Ask For Donations | DIctionary.com
+	https://www.thesaurus.com/e/ways-to-say/yams-sweet-potatoes/
+	Title: Yams vs. Sweet Potatoes: Are They The Same? | Thesaurus.com
+	https://www.dictionary.com/e/pop-culture/xyzbca/
+	Title: xyzbca Meaning | Pop Culture by Dictionary.com
+	https://www.dictionary.com/e/mustache-styles-beards/
+	Title: Trim Up Your Vocab With This List Of Beard And Mustache Styles | Dictionary.com
+	https://www.thesaurus.com/e/ways-to-say/tips-for-talking-to-family-during-holidays/
+	Title: 7 Tips For Talking To Your Family During The Holidays | Thesaurus.com
+	https://www.dictionary.com/e/marvel-superhero-power-quiz/
+	Title: Our Marvel-ous Superpower Quiz Will Test Your Superhero Smarts! | Dictionary.com
+	http://www.dictionary.com:80/list/0
+	Title: Browse Dictionary.com | Words Starting With Numeral & Diacritics
+	http://www.dictionary.com:80/list/a
+	Title: Browse Dictionary.com | Words Starting With "A"
+	http://www.dictionary.com:80/list/b
+	Title: Browse Dictionary.com | Words Starting With "B"
+	http://www.dictionary.com:80/list/c
+	Title: Browse Dictionary.com | Words Starting With "C"
+	http://www.dictionary.com:80/list/d
+	Title: Browse Dictionary.com | Words Starting With "D"
+	http://www.dictionary.com:80/list/e
+	Title: Browse Dictionary.com | Words Starting With "E"
+	http://www.dictionary.com:80/list/f
+	Title: Browse Dictionary.com | Words Starting With "F"
+	http://www.dictionary.com:80/list/g
+	Title: Browse Dictionary.com | Words Starting With "G"
+	http://www.dictionary.com:80/list/h
+	Title: Browse Dictionary.com | Words Starting With "H"
+	http://www.dictionary.com:80/list/i
+	Title: Browse Dictionary.com | Words Starting With "I"
+	http://www.dictionary.com:80/list/j
+	Title: Browse Dictionary.com | Words Starting With "J"
+	http://www.dictionary.com:80/list/k
+	Title: Browse Dictionary.com | Words Starting With "K"
+	http://www.dictionary.com:80/list/l
+	Title: Browse Dictionary.com | Words Starting With "L"
+	http://www.dictionary.com:80/list/m
+	Title: Browse Dictionary.com | Words Starting With "M"
+	http://www.dictionary.com:80/list/n
+	Title: Browse Dictionary.com | Words Starting With "N"
+	http://www.dictionary.com:80/list/o
+	Title: Browse Dictionary.com | Words Starting With "O"
+	http://www.dictionary.com:80/list/p
+	Title: Browse Dictionary.com | Words Starting With "P"
+	http://www.dictionary.com:80/list/q
+	Title: Browse Dictionary.com | Words Starting With "Q"
+
+	---------------------------------------------------------------------------------------------------------------
